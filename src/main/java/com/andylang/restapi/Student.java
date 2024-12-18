@@ -34,4 +34,19 @@ public class Student {
         this.totalSpentInBooks = totalSpentInBooks;
         this.created = created;
     }
+
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", gender=" + gender +
+                ", address=" + address +
+                ", favouriteSubjects=" + favouriteSubjects +
+                ", totalSpentInBooks=" + totalSpentInBooks +
+                ", created=" + created +
+                '}';
+    }
 }

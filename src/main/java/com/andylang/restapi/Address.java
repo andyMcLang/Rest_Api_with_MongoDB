@@ -40,4 +40,14 @@ public class Address {
     public void setPostCode(String postCode) {
         this.postCode = postCode;
     }
+
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", postalCode='" + postCode + '\'' +
+                '}';
+    }
 }
